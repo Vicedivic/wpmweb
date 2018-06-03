@@ -12,7 +12,7 @@ $(document).ready(function() {
   let wordsSum = 0;
   let currentWord = 0;
   let timeStart = true;
-  const time = 15; // seconds
+  const time = 60; // seconds
 
   function displayWords(array) {
     wordsContainer.innerHTML = array.map( (value) => {return `<span class='word'>${value}</span>`}).join('');
