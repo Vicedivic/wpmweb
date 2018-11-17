@@ -79,7 +79,7 @@ $(document).ready(function() {
     setTimeout( endGame, time*1000);
     $("#begintyping").fadeOut(50);
     $("#keeptyping").fadeIn(200);
-    $(".livewpm").fadeOut(70000);
+    $(".livewpm").fadeOut(30000);
   }
 
 
